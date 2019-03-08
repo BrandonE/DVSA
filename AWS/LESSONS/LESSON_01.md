@@ -1,7 +1,7 @@
 # LESSON #1: Event Injection
 
 ## (1.1) Code Injection via API Gateway
-The application sends all request to an API GW (*`https://{string}.execute-api.{region}.amazonaws.com/{stage}/order`*). 
+The application sends all requests to an API GW (*`https://{string}.execute-api.{region}.amazonaws.com/{stage}/order`*). 
 All requests end up being handled by a Lambda function, which invokes another Lambda function based on the incoming request.
 
 **This function is vulnerable to Code Injection**. The function uses an insecure de-serialization for the data in the request.

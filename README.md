@@ -98,6 +98,16 @@ DVSA sends receipts in the email (which will help you in hacking it). You can us
 
 
 - - - 
+## Teardown
+
+##### Teardown Backend
+- `sls remove`
+
+##### Teardown Client
+- `sls client remove`
+
+
+- - - 
 ## Documentation
 
 #### AWS ####
